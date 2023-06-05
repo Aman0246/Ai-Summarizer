@@ -12,8 +12,7 @@ function App() {
   return (
     <main>
    <div className="">
-       <div className=''>sad</div>
-       <div className='app'>
+       <div className='flex flex-col justify-center items-center w-90'>
         <Heros/>
         <Demo/>
        </div>

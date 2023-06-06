@@ -8,7 +8,7 @@ export default function Heros() {
           src="https://yt3.googleusercontent.com/UqT_vCkJIn1P2fH1pchr6lbe3xeEekY61h4bUpJkVuityqKOEtUYcNy3pLiJ5OKdj4uKA81FWE8=s900-c-k-c0x00ffffff-no-rj"
           className="w-28 h-20 object-contain"
           alt="LOGO"
-          srcset=""
+          srcSet=""
         />
         <button
           type="button"
@@ -32,7 +32,7 @@ export default function Heros() {
           Summarize your article with OpenAI GPT-3 
           Simplify your reading <br />with summerizer ,an open-source article summarizer that transform lengthy <br />article into clear and concise summaries <span>_</span>
          </h2>
-
+           
     </header>
   );
 }

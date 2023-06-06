@@ -1,7 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
 import axios from 'axios';
-
 const options = {
   method: 'GET',
   url: 'https://article-extractor-and-summarizer.p.rapidapi.com/summarize',
@@ -10,7 +9,7 @@ const options = {
     length: '3'
   },
   headers: {
-    'X-RapidAPI-Key': 'fccdb00861msh1ca51422a14bc1bp1ccb19jsn1729c3931386',
+    'X-RapidAPI-Key': 'cab1d3ed9amsh8d71c8ddc94f31ep18b5e7jsn91ad870067bc',
     'X-RapidAPI-Host': 'article-extractor-and-summarizer.p.rapidapi.com'
   }
 };
@@ -28,7 +27,7 @@ export const articleApi=createApi({
     baseQuery:fetchBaseQuery({
       baseUrl:'https://article-extractor-and-summarizer.p.rapidapi.com/',
       prepareHeaders:(headers)=>{
-          headers.set('X-RapidAPI-Key','fccdb00861msh1ca51422a14bc1bp1ccb19jsn1729c3931386')
+          headers.set('X-RapidAPI-Key','cab1d3ed9amsh8d71c8ddc94f31ep18b5e7jsn91ad870067bc')
           headers.set('X-RapidAPI-Host','article-extractor-and-summarizer.p.rapidapi.com')
       }
     }),
